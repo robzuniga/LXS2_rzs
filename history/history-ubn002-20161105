@@ -1,0 +1,31 @@
+    1   
+    2  history
+    3  cp .bash_history .bash_history.old
+    4  echo " " > .bash_history
+    5  less .bash_history
+    6  history
+    7  cd LXS2_rzs$ history
+    8  LXS2_rzs$ history
+    9  cd LXS2_rzs/
+   10  LXS2_rzs$ ls
+   11  history
+   12  history > file
+   13  ls
+   14  cat file
+   15  rm file
+   16  ls
+   17  echo $HOSTNAME
+   18  pwd
+   19  ls
+   20  history > history/history-$HOSTNAME
+   21  tree
+   22  date
+   23  man date
+   24  date +%Y%m%d
+   25  history > history/history-$HOSTNAME`date +%Y%m%d` 
+   26  tree
+   27  sudo apt-get install tree
+   28  netstat latunp
+   29  netstat latunp | grep 22
+   30  netstat -latunp | grep 22
+   31  history > history/history-$HOSTNAME-`date +%Y%m%d` 
