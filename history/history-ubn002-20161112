@@ -1,0 +1,448 @@
+    1   
+    2  history
+    3  cp .bash_history .bash_history.old
+    4  echo " " > .bash_history
+    5  less .bash_history
+    6  inkdir LXS2_rzs
+    7  cd LSX2 rzs/
+    8  cd LSX2_rzs/
+    9  ip -4 address
+   10  cd LSX2_rzs/
+   11  ls
+   12  tree LSX2_rzs/
+   13  cd LXS2_rzs
+   14  cd history
+   15  cd..
+   16  cd
+   17  pwd
+   18  ls
+   19  ls -l
+   20  ls -a
+   21  less .bash_history
+   22  ls
+   23  cd LXS2_rzs/
+   24  ls
+   25  git remote -v 
+   26  git pull origin master
+   27  bash reporte.sh
+   28  ls
+   29  ls -l
+   30  cat reporte-20161105.log
+   31  ls
+   32  reporte.sh
+   33  netstat -latunp
+   34  netstat -latun | grep LISTEN
+   35  netstat -latup | grep LISTEN
+   36  ./reporte.sh
+   37  sh reporte
+   38  sh reporte.sh
+   39  git status
+   40  cd ..
+   41  ls -a
+   42  cat .gitingnore
+   43  lws
+   44  ls
+   45  ls -a
+   46  cat .gitignore
+   47  echo "*.log >> .gitignore
+   48  cat .gitignore
+   49  git status
+   50  git log
+   51  git diff src/reporte.sh
+   52  git status
+   53  git add .gitignore
+   54  git commit -m "agrego al sistema de reportes las salidas de las interfaces activas y los puertos habilitados"
+   55  git status
+   56  git log
+   57  gitkat
+   58  gitkac
+   59  gitk
+   60  git push origin master
+   61  git pull origin master
+   62  vim reporte.sh
+   63  q
+   64  history
+   65  cd LXS2_rzs$ history
+   66  LXS2_rzs$ history
+   67  cd LXS2_rzs/
+   68  LXS2_rzs$ ls
+   69  history
+   70  history > file
+   71  ls
+   72  cat file
+   73  rm file
+   74  ls
+   75  echo $HOSTNAME
+   76  pwd
+   77  ls
+   78  history > history/history-$HOSTNAME
+   79  tree
+   80  date
+   81  man date
+   82  date +%Y%m%d
+   83  history > history/history-$HOSTNAME`date +%Y%m%d` 
+   84  tree
+   85  sudo apt-get install tree
+   86  netstat latunp
+   87  netstat latunp | grep 22
+   88  netstat -latunp | grep 22
+   89  history > history/history-$HOSTNAME-`date +%Y%m%d` 
+   90  tree
+   91  rm history/history-ubnoo2 
+   92  rm history/history-ubn002
+   93  rm history/history-0020161105
+   94  rm history/history-ubn00220161105
+   95  tree
+   96  touch src/.gitignore
+   97  tree
+   98  ls -a src/
+   99  pwd
+  100  touch .gitignore
+  101  ls -a
+  102  ls -la
+  103  echo "*~" > .gitignore
+  104  echo "*.swp" >> .gitignore
+  105  cat .gitignore
+  106  ls
+  107  pwd
+  108  git init
+  109  ls -la
+  110  tree .git
+  111  cd
+  112  vim .gitconfig
+  113  cat .gitconfig
+  114  cd LXS2_lsh
+  115  cd LXS2_rzs
+  116  git status
+  117  git add .gitignore
+  118  git add history/
+  119  git add src/
+  120  git status
+  121  git commit -m "Inicio del Repositorio de Nivel 2"
+  122  git status
+  123  git log
+  124  #git remote add origin https://github.com/robzuniga/LXS2_rzs.git
+  125  gitk
+  126  git status
+  127  git log
+  128  git remote add origin https://github.com/robzuniga/LXS2_rzs.git
+  129  git remote -v
+  130  git push origin master
+  131  cd src
+  132  ls
+  133  lsb_release -a
+  134  sudo apt-get install vim-nox
+  135  cd
+  136  git clone https://github.com/emvarg/LXS2_evb.git /tmp/
+  137  git clone https://github.com/emvarg/LXS2_evb.git
+  138  tree
+  139  git pull origin master
+  140  sudo apt-get install openssh-server
+  141  git clone https://github.com/emvarg/LXS2_evb.git
+  142  git pull origin master
+  143  git remote -v
+  144  git push origin master
+  145  ip -4 addr
+  146  ls
+  147  cd LXS2_rzs
+  148  ls
+  149  git push origin master
+  150  git log
+  151  mkdir misc/
+  152  ls
+  153  cd misc/
+  154  ls
+  155  var1=casa
+  156  var2=perro
+  157  echo $HOSTNAME
+  158  echo $var1
+  159  echo $var2
+  160  touch file-$var1-$var2
+  161  ls
+  162  ls -l
+  163  dmesg | wc
+  164  dmesg | less
+  165  dmesg | tail
+  166  dmesg | tail | wc
+  167  dmesg | head
+  168  dmesg | head | wc
+  169  dmesg | head -n 20 | wc
+  170  var2=perrito
+  171  dmesg | head -n 20 | wc > salida-de$var2
+  172  ls
+  173  dmesg | head -n 20 | wc > salida-de-$var2
+  174  ls
+  175  ls -l
+  176  cat salida-de-perrito
+  177  ifconfig -a
+  178  ifconfig -a > file-casa-perro
+  179  ls -l
+  180  git status
+  181  cd ..
+  182  git status
+  183  cd src/
+  184  git status
+  185  ls
+  186  git add ../msic/
+  187  git status
+  188  git add ../misc/
+  189  git status
+  190  git commit -m "archivos de perrito"
+  191  git push github master
+  192  git log
+  193  git push github master
+  194  git remote -v
+  195  git push origin  master
+  196  cd
+  197  ls
+  198  cd LXS2_rzs
+  199  git log
+  200  tree
+  201  echo $var1
+  202  echo $var2
+  203  unset var2
+  204  echo $var2
+  205  env
+  206  env | less
+  207  id
+  208  echo $UID
+  209  echo $UIDls
+  210  cd src/
+  211  vim reporte.sh
+  212  ls -l
+  213  cat ./reporte.sh
+  214  sh reporte.sh
+  215  cat reporte-20161105.log
+  216  ls
+  217  git status
+  218  git add reporte.sh
+  219  git status
+  220  git commit
+  221  git log
+  222  vim reporte.sh
+  223  ls- la
+  224  ls -la
+  225  ls -a
+  226  ls
+  227  cd LXS2_rzs
+  228  history > history/history-$HOSTNAME`date +%Y%m%d` 
+  229  cd /tmp
+  230  history > /home/sysadmin/LXS2_rzs/history/history-$HOSTNAME`date +%Y%m%d`
+  231  git add history/history-ubn002-20161105
+  232  ls
+  233  add history/history-ubn-00-20161105
+  234  git add history/history-ubn-00-20161105
+  235  git add history/history-ubn-02-20161105
+  236  clear
+  237  history > /home/sysadmin/LXS2_rzs/history/history-$HOSTNAME- `date +%Y%m$d`
+  238  cd
+  239  cd LXS2_
+  240  cd LXS2_rzs
+  241  ls
+  242  git status
+  243  git add history/history-ubn-00-20161105
+  244  git add history/history-ubn002-20161105
+  245  git status
+  246  git commit -m "history de la clase 1"
+  247  git push github master
+  248  git push origin  master
+  249  history
+  250  cd
+  251  cd LXS2_rzs
+  252  ls
+  253  cd src
+  254  ls
+  255  ls -la
+  256  ls
+  257  rm '$'
+  258  ls
+  259  git status
+  260  cd ..
+  261  ls
+  262  ls -la
+  263  cat .gitignore 
+  264  echo "*.log" >> .gitignore 
+  265  cat .gitignore 
+  266  git status 
+  267  git add .gitignore 
+  268  git add src/reporte.sh 
+  269  git status
+  270  git commit -m "corrijo gitignore y agrego mi reporte.sh" 
+  271  ls
+  272  git status 
+  273  cd 
+  274  ls
+  275  cd LXS2_evb/
+  276  ls
+  277  git pull origin master
+  278  cd src/
+  279  ls
+  280  less reporte.sh 
+  281  cd 
+  282  cd LXS2_rzs/
+  283  ls
+  284  cd src/
+  285  ls
+  286  cp ~/LXS2_evb/src/reporte.sh reporte.sh.profe
+  287  ls
+  288  chmod +x reporte.sh
+  289  ls -l
+  290  chmod -x reporte.sh
+  291  ls-l
+  292  ls -l
+  293  chmod 750 reporte.sh 
+  294  ls -l
+  295  git status 
+  296  git add reporte.sh.profe 
+  297  git add reporte.sh
+  298  git status 
+  299  git commit -m "agrego script del profe y cambio pernmisos de mi script" 
+  300  cd ..
+  301  ls
+  302  history > history/history-$HOSTNAME-`date +%Y%m$d`
+  303  tree
+  304  gitk
+  305  git status 
+  306  rm history/history-ubn002-
+  307  rm history/history-ubn002-201611
+  308  rm history/history-ubn00220161105 
+  309  git status 
+  310  git log 
+  311  history > history/history-$HOSTNAME-`date +%Y%m$d`
+  312  git status 
+  313  git add history/history-ubn002-201611 
+  314  git status 
+  315  git commit
+  316  gitk 
+  317  git push origin master 
+  318  exit
+  319  cd /LXS2_rzs/src
+  320  cd /LXS2_rzs
+  321  ls
+  322* cd 
+  323  cd LXS2_rzs
+  324  ls
+  325  cd src
+  326  vim ../../
+  327  vim ../../src
+  328  ls
+  329  vim  ~/.bashrc
+  330  git pull origin master
+  331  git clone https://github.com/embvar/LXS2_evb
+  332  cd
+  333  ls
+  334  cd src/
+  335  cd src
+  336  cd scr
+  337  ls
+  338  cd LXS2_rzs
+  339  ls
+  340  cd misc
+  341  touch eth1
+  342  touch eth2
+  343  touch eth3
+  344  touch eth4
+  345  ls
+  346  ls -l
+  347  ls -l eth[1-3]
+  348  ls -l eth[1,3]
+  349  cd
+  350  git clone https://github.com/emvar/LXS2_evb.git
+  351  git clone https://github.com/emvarg/LXS2_evb.git
+  352  git push github master
+  353  git push github master origin
+  354  ls
+  355  scp user1@10.124.18.37:/tmp/auth.log.1 .
+  356  ls
+  357  cd src
+  358  cd LSX2_rzs
+  359  cd LXS2_rzs
+  360  ls
+  361  scp user1@10.124.18.37:/tmp/auth.log.1 .
+  362  scp user1@10.124.18.37:/tmp/dhcpd.conf .
+  363  cd misc
+  364  scp user1@10.124.18.37:/tmp/dhcpd.conf .
+  365  scp user1@10.124.18.37:/tmp/auth.log.1 .
+  366  ls
+  367  less dhcpd.conf
+  368  vim dhcpd.conf
+  369  grep "#" dhcpd.conf
+  370  grep -v "#" dhcpd.conf
+  371  grep -v "#" dhcpd.conf | grep fixed
+  372  grep -v "#" dhcpd.conf | sed '/^\s*$/d'
+  373  grep -v "#" dhcpd.conf | sed '/^\s*$/d'| grep fixed
+  374* 
+  375  grep -v "#" dhcpd.conf | sed '/^\s*$/d'| grep fixed | cut -d " " -f2 | sed 's/;//'
+  376  grep -v "#" dhcpd.conf | sed '/^\s*$/d'| grep fixed | cut -d " " -f2 | sed 's/;//' | cut -d "." -f4
+  377  | sort
+  378  grep -v "#" dhcpd.conf | sed '/^\s*$/d'| grep fixed | cut -d " " -f2 | sed 's/;//' | cut -d "." -f4 | sort
+  379  grep -v "#" dhcpd.conf | sed '/^\s*$/d'| grep fixed | cut -d " " -f2 | sed 's/;//' | cut -d "." -f4 > clientes ocupados.log
+  380  less clientes.log
+  381  less clientes ocupados.log
+  382  ls
+  383  grep -v "#" dhcpd.conf | sed '/^\s*$/d'| grep fixed | cut -d " " -f2 | sed 's/;//' | cut -d "." -f4 > clientes ocupados.log
+  384  grep -v "#" dhcpd.conf | sed '/^\s*$/d'| grep fixed | cut -d " " -f2 | sed 's/;//' | cut -d "." -f4 > clientes_ocupados.log
+  385  ls
+  386  less clientes_ocupados.log
+  387  git status
+  388  git add *
+  389  rm et*
+  390  git status
+  391  git add *
+  392  ls
+  393  ls -la
+  394  cd
+  395  ls -la
+  396  cd LXS2_rzs
+  397  ls -la
+  398  nano gitignore
+  399  nano .gitignore
+  400  git add *
+  401  git commit -m "Commit de la clase 2"
+  402  git push origin master
+  403  ls
+  404  cd ..
+  405  ls
+  406  cd LXS2_e
+  407  cd LXS2_evb/
+  408  ls
+  409  git pull origin master 
+  410  ls
+  411  cp history/history-ubn-0020161112 ../LXS2_rzs/history/history-ubn-0020161112-profe
+  412  cd 
+  413  cd LXS2_evb/
+  414  ls
+  415  cd src/
+  416  ls
+  417  ls ~/LXS2_rzs/src/
+  418  cp * ~/LXS2_rzs/src/
+  419  ls ..
+  420  s
+  421  ls
+  422  cd ..
+  423  ls
+  424  cd misc/
+  425  ls
+  426  ls ~/LXS2_rzs/
+  427  cd ~/LXS2_rzs/
+  428  ls
+  429  tree
+  430  ls
+  431  git status 
+  432  git diff  .gitignore 
+  433  cat .gitignore
+  434  git checkout -- .gitignore
+  435  cat .gitignore
+  436  git status 
+  437  git diff  src/reporte.sh
+  438  git status 
+  439  git add src/reporte.sh 
+  440  git add history/history-ubn-0020161112-profe 
+  441  git add src/casa 
+  442  git add src/variables-01.sh 
+  443  git status 
+  444  git commit -m "Script de variables + filtros encadenados" 
+  445  git status 
+  446  git log 
+  447  gitk
+  448  history > history/history-$HOSTNAME-`date +%Y%m%d` 
